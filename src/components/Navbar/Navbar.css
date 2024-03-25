@@ -1,0 +1,45 @@
+.position-props{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 5px;
+    margin: 5px;
+}
+
+.search-cart{
+    margin-top: 30px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    font-size: 20px;
+}
+
+nav img{
+    width: 370px;
+    height: 210px;
+}
+
+.v-line{
+    width: 3px;
+    height: 20px;
+    background: black;
+   }
+
+hr{
+    height: 1px;
+    background: black;
+    border: solid 1px black;
+}
+.green{
+    color: rgb(20, 102, 20);
+}
+
+.btn{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

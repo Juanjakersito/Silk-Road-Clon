@@ -1,0 +1,28 @@
+.product{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+.product img{
+    width: 250px;
+    height: 250px;
+}
+.product p{
+    width: 250px;
+}
+.product h3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    margin-top: -12px;
+}
+.product h3 span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product h3 div{
+    cursor: pointer;
+}

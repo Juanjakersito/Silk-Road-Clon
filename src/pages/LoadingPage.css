@@ -1,0 +1,27 @@
+.seized{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: url('../assets/siteSeized.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 12;
+}
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #20202091;
+    position: fixed;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    color: rgb(76, 240, 76);
+    z-index: 12;
+
+}

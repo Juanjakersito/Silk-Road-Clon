@@ -1,0 +1,24 @@
+.green{
+    color: green;
+}
+.product-info-container{
+    display: flex;
+    justify-content: center;
+}
+.product-info-container .product-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.product-info-container .product-info .add-to-cart{
+    display: flex;
+justify-content: space-between;
+}
+.product-info-container .product-info .add-to-cart div{
+    cursor: pointer;
+}
+.product-info-container .product-info .add-to-cart span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
